@@ -4,11 +4,11 @@
 class Brewtest < Formula
   desc ""
   homepage ""
-  url "https://github.com/JohnMahowald/brewtest/archive/v1.0.0.tar.gz"
-  sha256 "1569923d0f154980300e5b8db68c64efde2a841861afa0292fd1651cfb20e857"
+  url "https://github.com/JohnMahowald/brewtest/archive/v1.0.1.tar.gz"
+  sha256 "e4b7dc1bc2c5f1f779e66060faa2c1ec126ff16f10cb5fe1f8ffc56ef6f150f4"
   # depends_on "cmake" => :build
 
   def install
-    bin.install "brewtest"
+    bin.install "testscript"
   end
 end
